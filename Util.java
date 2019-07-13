@@ -43,7 +43,7 @@ public final class Util{
      * @param matrix
      * @return
      */
-    public static int[] findMinMatrix(int[][] matrix){
+    public static int[] findLeastAmountOfSLotOptions(int[][] matrix){
         int minVal = matrix[0][0];
         int[] retVal = new int[]{0,0};
         for(int i = 0; i < matrix.length; i++){
